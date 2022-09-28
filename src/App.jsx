@@ -6,8 +6,8 @@ import tokenMintFcn from "./components/hedera/tokenMint.js";
 import contractDeployFcn from "./components/hedera/contractDeploy.js";
 import contractExecuteFcn from "./components/hedera/contractExecute.js";
 
+import TBD_ExecuteFcn from "./components/hedera/TBD_Execute.js";
 
- import TBD_ExecuteFcn from "./components/hedera/TBD_Execute.js";
 import "./styles/App.css";
 
 function App() {
