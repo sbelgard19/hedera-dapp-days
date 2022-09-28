@@ -148,7 +148,7 @@ function App() {
 				link={trasnferLinkSt}
 			/>
 			<MyGroup
-				fcn={contractExecute}
+				fcn={TBD_Execute}
 				buttonLabel={"TBD"}
 				text={TBDTextSt}
 				link={TBDLinkSt}
