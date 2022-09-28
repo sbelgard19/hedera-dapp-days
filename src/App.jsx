@@ -143,6 +143,13 @@ function App() {
 				text={trasnferTextSt}
 				link={trasnferLinkSt}
 			/>
+			<MyGroup
+				fcn={contractExecute}
+				buttonLabel={"TBD"}
+				text={TBD-TextSt}
+				link={TBD-LinkSt}
+			/>
+
 			<div className="logo">
 				<div className="symbol">
 					<svg
