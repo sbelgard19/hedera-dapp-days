@@ -12,10 +12,12 @@ async function tokenCreateFcn(walletData, accountId) {
 
 	const url = `https://testnet.mirrornode.hedera.com/api/v1/accounts?account.id=${accountId}`;
 	const mirrorQuery = await axios(url);
+	
 	const supplyKey = PublicKey.fromString(mirrorQuery.data.accounts[0].key.key);
+	const adminKey = PublicKey.fromString(mirrorQuery.data.accounts[0].key.key);
 
 	const tokenCreateTx = await new TokenCreateTransaction()
-		.setTokenName("Scotts dApp Created Token")
+		.setTokenName("Scott dApp Created Token")
 		.setTokenSymbol("SdApp-1")
 		.setTreasuryAccountId(accountId)
 		.setAutoRenewAccountId(accountId)
@@ -23,12 +25,14 @@ async function tokenCreateFcn(walletData, accountId) {
 		.setInitialSupply(333)
 		.setDecimals(0)
 		.setSupplyKey(supplyKey)
+		.setAdminKey(adminKey)
 		.freezeWithSigner(signer);
+	
 	const tokenCreateSubmit = await tokenCreateTx.executeWithSigner(signer);
 	const tokenCreateRx = await provider.getTransactionReceipt(tokenCreateSubmit.transactionId);
 	const tId = tokenCreateRx.tokenId;
 	const supply = tokenCreateTx._initialSupply.low;
-	console.log(`- Created HTS token with ID: ${tId}`);
+	console.log(`- Created Scott dAp token with ID: ${tId}`);
 
 	return [tId, supply, tokenCreateSubmit.transactionId];
 }
