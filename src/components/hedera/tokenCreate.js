@@ -3,7 +3,7 @@ import { TokenCreateTransaction, PublicKey } from "@hashgraph/sdk";
 
 async function tokenCreateFcn(walletData, accountId) {
 	console.log(`\n=======================================`);
-	console.log(`- Creating HTS token...`);
+	console.log(`- Creating Scotts dApp token...`);
 
 	const hashconnect = walletData[0];
 	const saveData = walletData[1];
@@ -15,12 +15,12 @@ async function tokenCreateFcn(walletData, accountId) {
 	const supplyKey = PublicKey.fromString(mirrorQuery.data.accounts[0].key.key);
 
 	const tokenCreateTx = await new TokenCreateTransaction()
-		.setTokenName("dAppDayToken")
-		.setTokenSymbol("DDT")
+		.setTokenName("Scotts dApp Created Token")
+		.setTokenSymbol("SdApp-1")
 		.setTreasuryAccountId(accountId)
 		.setAutoRenewAccountId(accountId)
 		.setAutoRenewPeriod(7776000)
-		.setInitialSupply(400)
+		.setInitialSupply(333)
 		.setDecimals(0)
 		.setSupplyKey(supplyKey)
 		.freezeWithSigner(signer);
