@@ -150,8 +150,8 @@ function App() {
 			<MyGroup
 				fcn={contractExecute}
 				buttonLabel={"TBD"}
-				text={TBD-TextSt}
-				link={TBD-LinkSt}
+				text={TBDTextSt}
+				link={TBDLinkSt}
 			/>
 
 			<div className="logo">
