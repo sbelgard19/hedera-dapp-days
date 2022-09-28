@@ -19,12 +19,16 @@ function App() {
 	const [mintTextSt, setMintTextSt] = useState("");
 	const [contractTextSt, setContractTextSt] = useState();
 	const [trasnferTextSt, setTransferTextSt] = useState();
+	
+		const [TBD-TextSt, setTBD-TextSt] = useState();
 
 	const [connectLinkSt, setConnectLinkSt] = useState("");
 	const [createLinkSt, setCreateLinkSt] = useState("");
 	const [mintLinkSt, setMintLinkSt] = useState("");
 	const [contractLinkSt, setContractLinkSt] = useState();
 	const [trasnferLinkSt, setTransferLinkSt] = useState();
+	
+		const [TBD-LinkSt, setTBD-LinkSt] = useState();
 
 	async function connectWallet() {
 		if (accountId !== undefined) {
