@@ -3,7 +3,7 @@ import { TokenMintTransaction } from "@hashgraph/sdk";
 async function tokenMintFcn(walletData, accountId, tId) {
 	console.log(`\n=======================================`);
 	const amount = 100;
-	console.log(`- Minting ${amount} tokens...`);
+	console.log(`- Minting ${amount} Scott dApp tokens...`);
 
 	const hashconnect = walletData[0];
 	const saveData = walletData[1];
