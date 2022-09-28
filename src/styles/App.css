@@ -195,11 +195,12 @@ code {
 	width: calc(100% - 40px);
 	height: auto;
 	min-height: 100%;
-	background-image: url(../assets/colors.png);
+/*	background-image: url(../assets/colors.png); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #000000;
+	background-color: #FF3396;
 	display: flex;
 	align-items: center;
 	justify-content: center;
