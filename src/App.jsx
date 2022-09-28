@@ -106,6 +106,15 @@ function App() {
 			setTransferLinkSt(`https://hashscan.io/#/testnet/transaction/${txId}`);
 		}
 	}
+	
+	async function TBD_Execute() {
+		if (tokenId === undefined || contractId === undefined) {
+			setTransferTextSt("🛑 TBD not found 🛑");
+		} else {
+			const txIdRaw = await TBD_ExecuteFcn();
+			setTransferTextSt(`🎉🎉🎉 Great job! You did the TBD 🎉🎉🎉`);
+		}
+	}
 
 	function prettify(txIdRaw) {
 		const a = txIdRaw.split("@");
