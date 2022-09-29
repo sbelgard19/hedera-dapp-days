@@ -115,6 +115,13 @@ function App() {
 			setTBDTextSt(`🎉🎉🎉 Great job! You did the TBD 🎉🎉🎉`);
 		}
 	}
+	
+	async function Clear_Messages() {
+			setTBDTextSt("");
+			setTransferTextSt("");
+			setContractTextSt("");
+			setMintTextSt("");
+	}
 
 	function prettify(txIdRaw) {
 		const a = txIdRaw.split("@");
@@ -165,6 +172,11 @@ function App() {
 				text={TBDTextSt}
 				link={TBDLinkSt}
 			/>
+			<MyGroup
+				fcn={Clear_Messages}
+				buttonLabel={"Clear Messages"}
+			/>
+
 
 			<div className="logo">
 				<div className="symbol">
