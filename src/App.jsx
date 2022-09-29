@@ -109,10 +109,10 @@ function App() {
 	
 	async function TBD_Execute() {
 		if (tokenId === undefined || contractId === undefined) {
-			setTransferTextSt("🛑 TBD not found 🛑");
+			setTBDTextSt("🛑 TBD not found 🛑");
 		} else {
 			const txTBD_Raw = await TBD_ExecuteFcn();
-			setTransferTextSt(`🎉🎉🎉 Great job! You did the TBD 🎉🎉🎉`);
+			setTBDTextSt(`🎉🎉🎉 Great job! You did the TBD 🎉🎉🎉`);
 		}
 	}
 
