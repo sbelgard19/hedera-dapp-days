@@ -181,7 +181,7 @@ function App() {
 						></path>
 					</svg>
 				</div>
-				<span>Hedera</span>
+				<span>Hedera-XOXOXO</span>
 			</div>
 		</div>
 	);
