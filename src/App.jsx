@@ -118,9 +118,10 @@ function App() {
 	
 	async function Clear_Messages() {
 			setTBDTextSt("");
-			setTransferTextSt("");
-			setContractTextSt("");
-			setMintTextSt("");
+			setTransferTextSt();
+			setContractTextSt();
+			setMintTextSt();
+			setCreateTextSt();
 	}
 
 	function prettify(txIdRaw) {
