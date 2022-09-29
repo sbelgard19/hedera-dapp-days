@@ -111,7 +111,7 @@ function App() {
 		if (tokenId === undefined || contractId === undefined) {
 			setTransferTextSt("🛑 TBD not found 🛑");
 		} else {
-			const txIdRaw = await TBD_ExecuteFcn();
+			const txTBD_Raw = await TBD_ExecuteFcn();
 			setTransferTextSt(`🎉🎉🎉 Great job! You did the TBD 🎉🎉🎉`);
 		}
 	}
