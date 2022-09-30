@@ -1,5 +1,6 @@
 import React from "react";
 
+import MyText from "./MyText.jsx";
 
 function MyDoubleButton(props) {
 	return (
