@@ -9,6 +9,6 @@ function MyGroup(props) {
 			<MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} />
 		</div>
 	);
-
+}
 export default MyGroup;
 
