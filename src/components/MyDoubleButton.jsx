@@ -6,7 +6,7 @@ import MyText from "./MyText.jsx";
 function MyDoubleButton(props) {
 	return (
 		<div>
-			<MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} /><MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} />
+			<MyButton fcn={props.fcn1} buttonLabel={props.buttonLabel1} /><MyButton fcn={props.fcn1} buttonLabel={props.buttonLabel1} />
 		</div>
 	);
 
