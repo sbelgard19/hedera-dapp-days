@@ -9,6 +9,13 @@ function MyGroup(props) {
 			<MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} />
 		</div>
 	);
+function MyDoubleButton(props) {
+	return (
+		<div>
+			<MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} /><MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} />
+		</div>
+	);
+
 }
 
 export default MyGroup;
