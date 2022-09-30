@@ -204,8 +204,8 @@ function App() {
 			<MyDoubleButton
 				fcn1={Clear_Messages}
 				buttonLabel1={"Clear Messages"}
-				fcn2={Do_Nothing}
-				buttonLabel2={"TEST"}
+				fcn2={tokenMint}
+				buttonLabel2={"MINT"}
 			/>
 CENTER
 
