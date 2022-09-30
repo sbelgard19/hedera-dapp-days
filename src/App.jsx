@@ -180,8 +180,8 @@ function App() {
 				text={trasnferTextSt}
 				link={trasnferLinkSt}
 			/>
-<</p>
-p align="right">
+</p>
+<p align="right">
     Right align content
 
 			<MyGroup
