@@ -19,3 +19,4 @@ function MyDoubleButton(props) {
 }
 
 export default MyGroup;
+export default MyDoubleButton;
