@@ -193,12 +193,12 @@ function App() {
 				fcn={Clear_Messages}
 				buttonLabel={"Clear Messages"}
 			/>
-<fieldset>
+
   <legend>Personalia:</legend>
   Name: <input type="text"><br>
   Email: <input type="text"><br>
   Date of birth: <input type="text">
-</fieldset>
+
 
 			<div className="logo">
 				<div className="symbol">
