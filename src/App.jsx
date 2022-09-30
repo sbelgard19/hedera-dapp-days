@@ -205,7 +205,7 @@ function App() {
 				fcn1={Clear_Messages}
 				buttonLabel1={"Clear Messages"}
 				fcn2={Do_Nothing}
-				buttonLabel1={"TEST"}
+				buttonLabel2={"TEST"}
 			/>
 CENTER
 
