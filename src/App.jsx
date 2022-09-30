@@ -141,13 +141,14 @@ function App() {
 			/>
 <p align="right">
     Right align content
-</p>
+
 			<MyGroup
 				fcn={tokenCreate}
 				buttonLabel={"Create New Token"}
 				text={createTextSt}
 				link={createLinkSt}
 			/>
+</p>
 <p align="left">
     Left align content
 </p>
