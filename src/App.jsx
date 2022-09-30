@@ -195,7 +195,7 @@ function App() {
 <p align="left">
     Left align content
 </p>				
-			<MyBoubleButton
+			<MyDoubleButton
 				fcn={Clear_Messages}
 				buttonLabel={"Clear Messages"}
 			/>
