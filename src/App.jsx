@@ -151,7 +151,7 @@ function App() {
 </p>
 <p align="left">
     Left align content
-</p>
+
 
 			<MyGroup
 				fcn={tokenMint}
@@ -159,9 +159,10 @@ function App() {
 				text={mintTextSt}
 				link={mintLinkSt}
 			/>
+</p>
 <p align="right">
     Right align content
-</p>
+
 
 			<MyGroup
 				fcn={contractDeploy}
@@ -169,24 +170,27 @@ function App() {
 				text={contractTextSt}
 				link={contractLinkSt}
 			/>
+</p>
 <p align="left">
     Left align content
-</p>
+
 			<MyGroup
 				fcn={contractExecute}
 				buttonLabel={"Transfer Tokens"}
 				text={trasnferTextSt}
 				link={trasnferLinkSt}
 			/>
-<p align="right">
+<</p>
+p align="right">
     Right align content
-</p>
+
 			<MyGroup
 				fcn={TBD_Execute}
 				buttonLabel={"TBD"}
 				text={TBDTextSt}
 				link={TBDLinkSt}
 			/>
+</p>
 <p align="left">
     Left align content
 </p>				
@@ -194,6 +198,7 @@ function App() {
 				fcn={Clear_Messages}
 				buttonLabel={"Clear Messages"}
 			/>
+CENTER
 
 			<div className="logo">
 				<div className="symbol">
