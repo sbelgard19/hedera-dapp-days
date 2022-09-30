@@ -139,7 +139,9 @@ function App() {
 				text={connectTextSt}
 				link={connectLinkSt}
 			/>
-
+<p align="right">
+    Right align content
+</p>
 			<MyGroup
 				fcn={tokenCreate}
 				buttonLabel={"Create New Token"}
