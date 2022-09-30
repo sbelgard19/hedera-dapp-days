@@ -140,6 +140,7 @@ const [barTextSt, setbarTextSt] = useState("bar");
 	
 	async function Do_Nothing() {
 		setfooTextSt("foo");
+		setbarTextSt("bar");
 	}
 
 
@@ -218,7 +219,7 @@ const [barTextSt, setbarTextSt] = useState("bar");
 				buttonLabel1={"Clear Messages"}
 
 				fcn2={Do_Nothing}
-				buttonLabel2={"MINT"}
+				buttonLabel2={"What?"}
 
 				text1={fooTextSt}
 				text2={barTextSt}
