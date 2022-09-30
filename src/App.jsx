@@ -42,6 +42,9 @@ function App() {
 	const [trasnferLinkSt, setTransferLinkSt] = useState();
 	
 		const [TBDLinkSt, setTBDLinkSt] = useState();
+	
+const [fooTextSt, setfooTextSt] = useState();
+const [barTextSt, setbarTextSt] = useState();
 
 	async function connectWallet() {
 		if (accountId !== undefined) {
@@ -135,6 +138,7 @@ function App() {
 	}
 	
 	async function Do_Nothing() {
+		setfooTextSt("foo");
 	}
 
 
@@ -212,11 +216,11 @@ function App() {
 				fcn1={Clear_Messages}
 				buttonLabel1={"Clear Messages"}
 
-				fcn2={tokenMint}
+				fcn2={Do_Nothing}
 				buttonLabel2={"MINT"}
 
-				text1={"foo"}
-				text2={"oof"}
+				text1={fooTextSt}
+				text2={barTextSt}
 			/>
 CENTER
 
