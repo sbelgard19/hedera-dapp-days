@@ -132,7 +132,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1 className="header">HEY THERE - Let's BUILD a dapp on Hedera!</h1>
+			<h2 className="header">HEY THERE - Let's BUILD a dapp on Hedera!</h2>
 			<MyGroup
 				fcn={connectWallet}
 				buttonLabel={"Connect Wallet"}
@@ -193,7 +193,12 @@ function App() {
 				fcn={Clear_Messages}
 				buttonLabel={"Clear Messages"}
 			/>
-CENTER
+<fieldset>
+  <legend>Personalia:</legend>
+  Name: <input type="text"><br>
+  Email: <input type="text"><br>
+  Date of birth: <input type="text">
+</fieldset>
 
 			<div className="logo">
 				<div className="symbol">
