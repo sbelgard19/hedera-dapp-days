@@ -43,8 +43,8 @@ function App() {
 	
 		const [TBDLinkSt, setTBDLinkSt] = useState();
 	
-const [fooTextSt, setfooTextSt] = useState();
-const [barTextSt, setbarTextSt] = useState();
+const [fooTextSt, setfooTextSt] = useState("foo");
+const [barTextSt, setbarTextSt] = useState("bar");
 
 	async function connectWallet() {
 		if (accountId !== undefined) {
