@@ -194,11 +194,6 @@ function App() {
 				buttonLabel={"Clear Messages"}
 			/>
 
-  Name: <input type="text"><br>
-  Email: <input type="text"><br>
-  Date of birth: <input type="text">
-
-
 			<div className="logo">
 				<div className="symbol">
 					<svg
