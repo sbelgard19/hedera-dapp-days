@@ -14,6 +14,13 @@ import TBD_ExecuteFcn from "./components/hedera/TBD_Execute.js";
 import "./styles/App.css";
 
 function App() {
+	
+	{/* useState command	
+	  const [color, setColor] = useState("red");
+	  onClick={() => setColor("blue")
+	  <h1>My favorite color is {color}!</h1>
+	  */}
+
 	const [walletData, setWalletData] = useState();
 	const [accountId, setAccountId] = useState();
 	const [tokenId, setTokenId] = useState();
