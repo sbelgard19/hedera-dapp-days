@@ -213,6 +213,7 @@ function App() {
 				buttonLabel1={"Clear Messages"}
 				fcn2={tokenMint}
 				buttonLabel2={"MINT"}
+				text1={"foo"}
 			/>
 CENTER
 
