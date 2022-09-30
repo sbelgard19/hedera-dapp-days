@@ -197,9 +197,9 @@ function App() {
 <p align="left">
     Left align content
 </p>				
-			<MyGroup
-				fcn={Clear_Messages}
-				buttonLabel={"Clear Messages"}
+			<MyDoubleButton
+				fcn1={Clear_Messages}
+				buttonLabel1={"Clear Messages"}
 			/>
 CENTER
 
