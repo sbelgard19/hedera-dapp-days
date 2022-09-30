@@ -146,40 +146,52 @@ function App() {
 				text={createTextSt}
 				link={createLinkSt}
 			/>
-insert1
+<p align="left">
+    Left align content
+</p>
+
 			<MyGroup
 				fcn={tokenMint}
 				buttonLabel={"Mint 100 New Tokens"}
 				text={mintTextSt}
 				link={mintLinkSt}
 			/>
-insert2
+<p align="right">
+    Right align content
+</p>
+
 			<MyGroup
 				fcn={contractDeploy}
 				buttonLabel={"Deploy Contract"}
 				text={contractTextSt}
 				link={contractLinkSt}
 			/>
-insert3
+<p align="left">
+    Left align content
+</p>
 			<MyGroup
 				fcn={contractExecute}
 				buttonLabel={"Transfer Tokens"}
 				text={trasnferTextSt}
 				link={trasnferLinkSt}
 			/>
-insert4
+<p align="right">
+    Right align content
+</p>
 			<MyGroup
 				fcn={TBD_Execute}
 				buttonLabel={"TBD"}
 				text={TBDTextSt}
 				link={TBDLinkSt}
 			/>
-insert5					
+<p align="left">
+    Left align content
+</p>				
 			<MyGroup
 				fcn={Clear_Messages}
 				buttonLabel={"Clear Messages"}
 			/>
-BOTTOM
+CENTER
 
 			<div className="logo">
 				<div className="symbol">
