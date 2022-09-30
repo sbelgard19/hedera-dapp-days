@@ -135,6 +135,7 @@ const [barTextSt, setbarTextSt] = useState();
 			setContractTextSt();
 			setMintTextSt();
 			setCreateTextSt();
+			setfooTextSt();
 	}
 	
 	async function Do_Nothing() {
