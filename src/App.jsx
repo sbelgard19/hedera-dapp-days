@@ -211,10 +211,12 @@ function App() {
 			<MyDoubleButton
 				fcn1={Clear_Messages}
 				buttonLabel1={"Clear Messages"}
+
 				fcn2={tokenMint}
 				buttonLabel2={"MINT"}
+
 				text1={"foo"}
-				text1={"oof"}
+				text2={"oof"}
 			/>
 CENTER
 
